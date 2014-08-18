@@ -5,10 +5,10 @@ set -e
 set -x
 
 cat > /etc/apt/sources.list <<EOF
-deb http://archive.ubuntu.com/ubuntu trusty main
-deb http://archive.ubuntu.com/ubuntu trusty-security main
-deb http://archive.ubuntu.com/ubuntu trusty-updates main
-deb http://archive.ubuntu.com/ubuntu trusty universe
+deb http://archive.ubuntu.com/ubuntu precise main
+deb http://archive.ubuntu.com/ubuntu precise-security main
+deb http://archive.ubuntu.com/ubuntu precise-updates main
+deb http://archive.ubuntu.com/ubuntu precise universe
 EOF
 
 apt-get update

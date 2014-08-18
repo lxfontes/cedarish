@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER progrium "progrium@gmail.com"
+FROM ubuntu:precise
+MAINTAINER progrium "lxfontes+cedarish@gmail.com"
 
 RUN mkdir /tmp/build
 ADD ./stack/ /tmp/build
